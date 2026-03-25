@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Ram",
+      "email": "ram@gmail.com",
+      "gender": "male",
+      "password": "123456",
+      "easy": 0,
+      "medium": 0,
+      "hard": 0,
+      "id": "5cpr7hv89EU"
+    },
+    {
+      "name": "Ravi",
+      "email": "ravi@gmail.com",
+      "gender": "male",
+      "password": "123456",
+      "easy": 0,
+      "medium": 0,
+      "hard": 0,
+      "id": "A0p-ubtKJf8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

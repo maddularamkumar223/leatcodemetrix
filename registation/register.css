@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+}
+nav {
+  height: 10%;
+}
+section {
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  height: 80%;
+  width: 60%;
+  border: solid;
+  padding: 10px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form input {
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+form input[type="radio"] {
+  width: 30px;
+}
+
+form button {
+  width: 80%;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: navy;
+  color: white;
+}
+
+form span{
+    font-size: 20px;
+}
