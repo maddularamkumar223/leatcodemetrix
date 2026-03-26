@@ -25,6 +25,8 @@ let validation = async (email, password) => {
       alert("User Not Found");
     } else {
       alert("Login Successful");
+      sessionStorage.setItem("id", singleUser.id);
+      // localStorage.setItem("id", singleUser.id);
       location.href = "../homepage/index.html";
     }
   } catch (error) {
