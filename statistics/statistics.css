@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+section article {
+  flex-basis: 50%;
+  border: solid;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.progressBar aside {
+  width: 50%;
+}
+aside > div:nth-child(2) {
+  height: 30px;
+  width: 100%;
+  border: solid;
+  border-radius: 20px;
+  div {
+    height: 100%;
+    border-radius: 20px;
+    transition: all 2s ease;
+  }
+}
+
+div span {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.questionSolved > div {
+  width: 75%;
+}
+.questionSolved aside {
+  height: 100px;
+  display: grid;
+  place-items: center;
+}
+.questionSolved aside > div {
+  border: solid;
+  width: 50%;
+  border-radius: 20px;
+}
+.questionSolved p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin: 0;
+}

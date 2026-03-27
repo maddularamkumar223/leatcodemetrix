@@ -12,7 +12,7 @@ let navigation = [
   },
   {
     name: "statistics",
-    path: "#",
+    path: "../statistics/statistics.html",
   },
 ];
 

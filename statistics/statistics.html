@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./statistics.css" />
+    <link rel="stylesheet" href="../navbar/navbar.css" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css" />
+  </head>
+  <body>
+    <main>
+      <nav id="nav_container"></nav>
+      <section>
+        <article class="progressBar">
+          <aside>
+            <div class="row px-3">
+              <span class="col-6">Easy</span>
+              <span class="easy col-6 text-end">0%</span>
+            </div>
+            <div>
+              <div class="progress_easy"></div>
+            </div>
+          </aside>
+          <aside>
+            <div class="row px-3">
+              <span class="col-6">Medium</span>
+              <span class="medium col-6 text-end">0%</span>
+            </div>
+            <div>
+              <div class="progress_medium"></div>
+            </div>
+          </aside>
+          <aside>
+            <div class="row px-3">
+              <span class="col-6">Hard</span>
+              <span class="hard col-6 text-end">0%</span>
+            </div>
+            <div>
+                <div class="progress_hard"></div>
+            </div>
+          </aside>
+        </article>
+        <article class="questionSolved">
+          <div class="row">
+            <aside class="easy block col-12 col-md-4">
+              <div>
+                <p>Easy</p>
+                <p class="easy_question">0/100</p>
+              </div>
+            </aside>
+            <aside class="medium block col-12 col-md-4">
+              <div>
+                <p>Medium</p>
+                <p class="medium_question">0/100</p>
+              </div>
+            </aside>
+            <aside class="hard block col-12 col-md-4">
+              <div>
+                <p>Hard</p>
+                <p class="hard_question">0/100</p>
+              </div>
+            </aside>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="./statistics.js"></script>
+    <script src="../navbar/navbar.js"></script>
+    <script src="../bootstrap/bootstrap.js"></script>
+  </body>
+</html>

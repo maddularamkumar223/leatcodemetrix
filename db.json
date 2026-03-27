@@ -5,9 +5,9 @@
       "email": "ram@gmail.com",
       "gender": "male",
       "password": "123456",
-      "easy": 0,
-      "medium": 0,
-      "hard": 0,
+      "easy": 10,
+      "medium": 20,
+      "hard": 3,
       "id": "5cpr7hv89EU"
     },
     {
@@ -15,9 +15,9 @@
       "email": "ravi@gmail.com",
       "gender": "male",
       "password": "123456",
-      "easy": 0,
-      "medium": 0,
-      "hard": 0,
+      "easy": 10,
+      "medium": 20,
+      "hard": 10,
       "id": "A0p-ubtKJf8"
     }
   ],
