@@ -8,7 +8,7 @@ let logo = [
 let navigation = [
   {
     name: "problems",
-    path: "#",
+    path: "../problems/problems.html",
   },
   {
     name: "statistics",
